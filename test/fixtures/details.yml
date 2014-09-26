@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dealing_id_id: 
+  product_id_id: 
+  amount: 1
+
+two:
+  dealing_id_id: 
+  product_id_id: 
+  amount: 1
