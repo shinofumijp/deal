@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
 
+  devise_for :shops, :controllers => {
+      :sessions => "shops/sessions",
+      :registrations => "shops/registrations",
+      :passwords => "shops/passwords"
+  }
+
   resources :dealing
   resources :client
-  resources :shop
+ # resources :shop
   resources :payment
   resources :product
   resources :detail
